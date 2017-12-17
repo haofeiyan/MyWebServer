@@ -25,8 +25,6 @@ public class HTTPServerConsole {
 		ServerFactory factory = new ServerFactory();
 		HTTPServerConsole server = new HTTPServerConsole(view, factory);
 		server.runConsole();
-		
-		
 	}
 
 	void runConsole() throws Exception {
